@@ -4,10 +4,10 @@
         # # # # # 
         . # . . . 
         . . # . .
-        `</field></block></statement><next><block type="controls_if" id="vvkVbCX%kavsPed~/^lk"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="8ZuT}VgOBd?l+oa#C`(T"><field name="NAME">TouchPin.P1</field></block></value><statement name="DO0"><block type="device_show_leds" id="-#FD,Vwx/HVf`8ZHL;k?"><field name="LEDS">`
+        `</field><next><block type="device_start_melody" id="#30mga/tHXg~-)|wj(BP"><field name="options">MelodyOptions.Once</field><value name="melody"><block type="device_builtin_melody" id="iY`39UHmV9vii^JCO^5."><field name="melody">Melodies.BaDing</field></block></value></block></next></block></statement><next><block type="controls_if" id="vvkVbCX%kavsPed~/^lk"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="8ZuT}VgOBd?l+oa#C`(T"><field name="NAME">TouchPin.P1</field></block></value><statement name="DO0"><block type="device_show_leds" id="-#FD,Vwx/HVf`8ZHL;k?"><field name="LEDS">`
         . . # . . 
         . . . # . 
         # # # # # 
         . . . # . 
         . . # . .
-        `</field></block></statement></block></next></block></statement></block></xml>
+        `</field><next><block type="device_start_melody" id="e7?+3j#SrRewWPtxK.O1"><field name="options">MelodyOptions.Once</field><value name="melody"><block type="device_builtin_melody" id="2Hj=cnPQmdbU-Bl489et"><field name="melody">Melodies.PowerUp</field></block></value></block></next></block></statement></block></next></block></statement></block></xml>

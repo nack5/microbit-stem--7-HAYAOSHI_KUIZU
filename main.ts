@@ -7,6 +7,7 @@ basic.forever(function () {
             . # . . .
             . . # . .
             `)
+        music.startMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once)
     }
     if (input.pinIsPressed(TouchPin.P1)) {
         basic.showLeds(`
@@ -16,5 +17,6 @@ basic.forever(function () {
             . . . # .
             . . # . .
             `)
+        music.startMelody(music.builtInMelody(Melodies.PowerUp), MelodyOptions.Once)
     }
 })
